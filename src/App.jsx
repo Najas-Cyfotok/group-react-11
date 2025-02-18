@@ -1,25 +1,25 @@
 import React from 'react'
 import Navbar from './sections/Navbar'
 import HeroSections from './components/HeroSections'
+import CardSections from './components/CardSections'
+import CompenySections from './components/CompenySections'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
    <header>
    <Navbar />
-    <section className='py-20 px-10'>
+    <section className='py-20 '>
       <HeroSections />
     </section>
-    <section className='py-20 px-10'>
-      ProductSections
+    <section>
+      <CardSections />
     </section>
-    <section className='py-20 px-10 bg-gray-300'>
-      CardSections
+    <section>
+    <CompenySections />
     </section>
-    <section className='py-20 px-10'>
-    CompenySection
-    </section>
-    <footer className='py-20 px-10'>
-      Footer
+    <footer >
+      <Footer />
     </footer>
    </header>
   )
