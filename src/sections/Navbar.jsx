@@ -1,0 +1,45 @@
+import React from 'react'
+
+const Navbar = () => {
+  return (
+    <section className=' w-full h-[80px] border shadow-md fixed bg-white '>
+        <div className='flex flex-cols '>
+            <div className='relative top-5 px-[52px]'>
+                <img src="public/Myntra-icon-logo.svg" alt="logo" width={52} height={50} className='cursor-pointer' />
+            </div>
+            <div className='absolute top-[29px] pl-4 '>
+                <ul className='flex justify-start items-center px-[100px] '>
+                    {
+                        list.map((item,index) => (
+                            <li key={index} className='px-[18px] font-bold text-[14px] text-slate-800 cursor-pointer hover:border-b-4 pb-6 border-red-600 '>{item}</li>
+                        ))
+                    }
+                </ul>
+            </div>
+            <div className=' absolute top-[20px] right-[210px] '>
+                <input type="text" placeholder='Search for Products, brands and more' className='pl-[50px] w-[360px] h-[40px] text-[14px] font-light outline-none rounded bg-gray-100' />
+                <img src="public/search.svg" alt="search-icon" className='absolute top-[14px] mx-4 w-[14px] cursor-pointer' />
+            </div>
+            <div className='absolute right-5 top-6 flex   '>
+                <div className='cursor-pointer hover:border-b-4 pb-3 border-red-600 px-3 '>
+                <img src="public/user.svg" alt="user" width={20} className='ml-1' />
+                <p className='text-center text-[12px] font-bold '>Profile</p>
+                </div>
+                <div className='px-3'>
+                <img src="public/heart.svg" alt="user" width={20} className='ml-3' />
+                <p className='text-center text-[12px] font-bold'>Wishlist</p>
+                </div>
+                <div className='px-3'>
+                <img src="public/shopping-bag.svg" alt="user" width={20} className=''/>
+                <p className='text-center text-[12px] font-bold'>Bag</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default Navbar
+
+const list = ["MEN", "WOMEN", "KIDS", "HOME & LIVING", "BEAUTY", "STUDIO" ]
