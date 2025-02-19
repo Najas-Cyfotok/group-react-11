@@ -42,8 +42,8 @@ const HomeFooter = () => {
         <div>
             <h1 className='text-[12px] font-bold'>EXPERIENCE MYNTRA APP ON MOBILE</h1>
             <div className='flex gap-3 py-7'>
-          <a href="/"> <img src={photo1} alt="playstore" className='w-[140px]' /></a>
-          <a href="/"> <img src={photo2} alt="applestore" className='w-[130px] h-[42px]' /></a>
+          <a href="https://play.google.com/store/search?q=mtntra&c=apps&hl=en"> <img src={photo1} alt="playstore" className='w-[140px]' /></a>
+          <a href="https://apps.apple.com/in/app/myntra-fashion-shopping-app/id907394059"> <img src={photo2} alt="applestore" className='w-[130px] h-[42px]' /></a>
           </div>
           <h1 className='text-[12px] font-bold'>KEEP IN TOUCH</h1>
           <div className='flex gap-4 py-3 cursor-pointer '>
