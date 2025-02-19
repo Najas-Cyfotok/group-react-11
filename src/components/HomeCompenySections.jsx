@@ -7,7 +7,7 @@ import photo4 from '../assets/image2/compeny-3.webp'
 import photo5 from '../assets/image2/compeny-4.webp'
 import photo6 from '../assets/image2/compeny-5.webp'
 
-const CompenySections = () => {
+const HomeCompenySections = () => {
   return (
     <section className='h-[450px] max-md:h-[600px] '>
         <div className='mx-[60px]'>
@@ -24,4 +24,4 @@ const CompenySections = () => {
   )
 }
 
-export default CompenySections
+export default HomeCompenySections

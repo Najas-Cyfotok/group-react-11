@@ -3,7 +3,7 @@ import photo1 from '../assets/image/image-2/card-1.jpg'
 import photo2 from '../assets/image/image-2/car-2.jpg'
 import photo3 from '../assets/image/image-2/card-3.jpg'
 
-const CardSections = () => {
+const HomeCardSections = () => {
   return (
     <section className='min-h-screen bg-[#EFEDEE]'>
         <div className=''>
@@ -19,4 +19,4 @@ const CardSections = () => {
 }
 
 
-export default CardSections
+export default HomeCardSections

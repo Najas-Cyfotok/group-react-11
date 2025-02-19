@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeroSections = () => {
+const HomeHeroSections = () => {
   return (
    <section className=' min-h-screen -z-50'>
     <div className='my-6 mx-10'> 
@@ -86,7 +86,7 @@ const HeroSections = () => {
   )
 }
 
-export default HeroSections
+export default HomeHeroSections
 
 const list =["Bed Sheets", "Bedding Sets & Bed Covers", "Blankets, Quilts & Dohars", "Pillows & Pillow Covers", "Cuhions & Cuhion Covers", "Curtains", "Mats & Dhurries", "Carpets"]
 const list2 =["Towels & Towel Sets", "Bath Robes", "Bathroom Accessories", "Shower Curtains", "Bath Rugs"]

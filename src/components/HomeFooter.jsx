@@ -3,7 +3,7 @@ import photo1 from '../assets/image2/app-1.png'
 import photo2 from '../assets/image2/app-2.png'
 
 
-const Footer = () => {
+const HomeFooter = () => {
   return (
     <section className='min-h-screen bg-gray-50 py-[40px] px-[130px] max-md:px-[30px]'>
         <div className='flex gap-14 max-md:flex-col'>
@@ -79,7 +79,7 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default HomeFooter
 
 const list = ["Men", "Women", "Kids", "Home & Living", "Beauty", "Gift Cards", "Myntra Insider"]
 const list2 = ["Blog", "Careers", "Site Map", "Corporate Information", "Whitehat", "Cleartrip"]
