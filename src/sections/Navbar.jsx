@@ -9,11 +9,12 @@ const Navbar = () => {
             </div>
             <div className='absolute top-[29px] pl-4 max-sm:hidden max-md:hidden'>
                 <ul className='flex justify-start items-center px-[100px] '>
-                    {
-                        list.map((item,index) => (
-                            <a href="/"><li key={index} className='px-[18px] font-bold text-[14px] text-slate-800 cursor-pointer hover:border-b-4 pb-6 border-red-600 '>{item}</li></a>
-                        ))
-                    }
+                    <li className='px-[18px] font-bold text-[14px] text-slate-800 cursor-pointer hover:border-b-4 pb-6 border-[#fa073c]' >MEN</li>
+                    <li className='px-[18px] font-bold text-[14px] text-slate-800 cursor-pointer hover:border-b-4 pb-6 border-[#fa07da]'>WOMEN</li>
+                    <li className='px-[18px] font-bold text-[14px] text-slate-800 cursor-pointer hover:border-b-4 pb-6 border-[#fa6807]'>KIDS</li>
+                    <li className='px-[18px] font-bold text-[14px] text-slate-800 cursor-pointer hover:border-b-4 pb-6 border-[#fae607]'>HOME & LIVING</li>
+                    <li className='px-[18px] font-bold text-[14px] text-slate-800 cursor-pointer hover:border-b-4 pb-6 border-[#038c81]'>BEAUTY</li>
+                    <li className='px-[18px] font-bold text-[14px] text-slate-800 cursor-pointer hover:border-b-4 pb-6 border-red-600'>STUDIO</li>
                 </ul>
             </div>
             <div className=' absolute top-[20px] right-[210px] max-sm:right-24'>
